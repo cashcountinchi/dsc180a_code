@@ -47,7 +47,7 @@ def rangeFormatter(date):
 
 def genDates():
     """
-    Generates dates for analysis
+    Generates date sequences for analysis.
     """
 
     monthSeq = ["01-01", "02-01", "03-01", "04-01", "05-01", "06-01",
@@ -93,6 +93,10 @@ def genEEGeometries():
 
 
 def genFeatureCollections():
+    """
+    Loads feature collections for Madagascar Level 1 administrative boundaries and
+    several polygon geometries containing national parks.
+    """
 
     # level 1 administrative boundaries
     boundsLevel_1 = ee.FeatureCollection("FAO/GAUL/2015/level1"
