@@ -1,1 +1,1 @@
-# dsc180a_code
+# DSC180A: Land Use Change Dynamics
